@@ -33,8 +33,29 @@ public class Main {
         int sheetsPaperPerson = sheetsPaper / totalNumberHeads;
     System.out.println("Количество листов на одного ученика - " +sheetsPaperPerson+ " шт.");
 
-    System.out.println("Задача 3");
+    System.out.println("Задача 4");
+    float q;
+    q= (float) 16 /2;
+    System.out.println("Количество бутылок, произв. за 1 мин.  - " +q+ " шт.");
+        int doneMinutes20 = (int) (q * 20);
+    System.out.println("За 20 минут, будет произведено " +doneMinutes20+ " шт. бутылок");
+        int doneMinutesDay = (int) (((24*60) * 1) *q);
+    System.out.println("За сутки, будет произведено " +doneMinutesDay+ " шт. бутылок");
+        int doneMinutes3Days = (int) (((24*60) * 3) * q);
+    System.out.println("За сутки, будет произведено " +doneMinutes3Days+ " шт. бутылок");
+       int doneMinutes30Days = (int) (((24*60) * 30) * q);
+   System.out.println("За месяц - 30 дней, будет произведено " +doneMinutes30Days+ " шт. бутылок");
+
+   System.out.println("Задача 5");
+   byte totalNumberCans = 120;
+        byte oneClass = 2 + 4;
+        int totalNumberClasses = (int) totalNumberCans / oneClass;  // количество классов - 20
+        int numberWhitePaint = (int) totalNumberClasses * 2; // 40 банок белой
+        int numberBlackPaint = (int) totalNumberClasses * 4; // 80 банок черной
+   System.out.println("В школе, где " +totalNumberCans+ " классов, нужно " +numberWhitePaint+  " банок белой краски и " +numberBlackPaint+ " банок коричневой краски");
+
+   System.out.println("Задача 6");
+
+
     }
-
-
 }
