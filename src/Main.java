@@ -77,6 +77,23 @@ public class Main {
         System.out.println("При условии потери " + loss2Gramm + " грамм в день, спортсме потратит на это " +loss2QuantityDay+ " дней");
         int mediumQuantityDay = (loss1QuantityDay + loss2QuantityDay) / 2;
         System.out.println("Среднее количество дней, чтобы добиться результата - " + mediumQuantityDay);
-        
+
+        System.out.println("Задача 8");
+
+        int MashaSalary = 67760;
+        int DenisSalary = 83690;
+        int KristinaSalary = 76230;
+
+        int MashaNewSalary = ((MashaSalary * 10) / 100) + MashaSalary;
+        int DenisNewSalary = ((DenisSalary * 10) / 100) + DenisSalary;
+        int KristinaNewSalary = ((KristinaSalary * 10) / 100) + KristinaSalary;
+
+        int MashaDifferenceYearsSalary = (MashaNewSalary * 12) - (MashaSalary * 12);
+        int DenisDifferenceYearsSalary = (DenisNewSalary * 12) - (DenisSalary * 12);
+        int KristinaDifferenceYearsSalary = (KristinaNewSalary * 12) - (KristinaSalary * 12);
+
+        System.out.println("После повышения зарплаты на 10 %, Маша будет получать в месяц - " + MashaNewSalary + " рублей, ее годовой доход увеличится на " + MashaDifferenceYearsSalary + " рублей");
+        System.out.println("После повышения зарплаты на 10 %, Денис будет получать в месяц - " + DenisNewSalary + " рублей, его годовой доход увеличится на " + DenisDifferenceYearsSalary + " рублей");
+        System.out.println("После повышения зарплаты на 10 %, Маша будет получать в месяц - " + KristinaNewSalary + " рублей, ее годовой доход увеличится на " + KristinaDifferenceYearsSalary + " рублей");
     }
 }
