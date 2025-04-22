@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Количество бутылок, произв. за 1 мин.  - " + q + " шт.");
         int doneMinutes20 = (int) (q * 20);
         System.out.println("За 20 минут, будет произведено " + doneMinutes20 + " шт. бутылок");
-        int doneMinutesDay = (int) (((24 * 60) * 1) * q);
+        int doneMinutesDay = (int) ((24 * 60) * q);
         System.out.println("За сутки, будет произведено " + doneMinutesDay + " шт. бутылок");
         int doneMinutes3Days = (int) (((24 * 60) * 3) * q);
         System.out.println("За сутки, будет произведено " + doneMinutes3Days + " шт. бутылок");
@@ -50,8 +50,8 @@ public class Main {
         byte totalNumberCans = 120;
         byte oneClass = 2 + 4;
         int totalNumberClasses = (int) totalNumberCans / oneClass;  // количество классов - 20
-        int numberWhitePaint = (int) totalNumberClasses * 2; // 40 банок белой
-        int numberBlackPaint = (int) totalNumberClasses * 4; // 80 банок черной
+        int numberWhitePaint = totalNumberClasses * 2; // 40 банок белой
+        int numberBlackPaint = totalNumberClasses * 4; // 80 банок черной
         System.out.println("В школе, где " + totalNumberCans + " классов, нужно " + numberWhitePaint + " банок белой краски и " + numberBlackPaint + " банок коричневой краски");
 
         System.out.println("Задача 6");
@@ -95,5 +95,8 @@ public class Main {
         System.out.println("После повышения зарплаты на 10 %, Маша будет получать в месяц - " + MashaNewSalary + " рублей, ее годовой доход увеличится на " + MashaDifferenceYearsSalary + " рублей");
         System.out.println("После повышения зарплаты на 10 %, Денис будет получать в месяц - " + DenisNewSalary + " рублей, его годовой доход увеличится на " + DenisDifferenceYearsSalary + " рублей");
         System.out.println("После повышения зарплаты на 10 %, Маша будет получать в месяц - " + KristinaNewSalary + " рублей, ее годовой доход увеличится на " + KristinaDifferenceYearsSalary + " рублей");
+
+    System.out.println("Задача 9");
+
     }
 }
