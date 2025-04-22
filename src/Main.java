@@ -41,7 +41,8 @@ public class Main {
         System.out.println("За 20 минут, будет произведено " + doneMinutes20 + " шт. бутылок");
         int doneMinutesDay = (int) ((24 * 60) * q);
         System.out.println("За сутки, будет произведено " + doneMinutesDay + " шт. бутылок");
-        int doneMinutes3Days = (int) (((24 * 60) * 3) * q);
+        int doneMinutes3Days;
+        doneMinutes3Days = (int) (((24 * 60) * 3) * q);
         System.out.println("За сутки, будет произведено " + doneMinutes3Days + " шт. бутылок");
         int doneMinutes30Days = (int) (((24 * 60) * 30) * q);
         System.out.println("За месяц - 30 дней, будет произведено " + doneMinutes30Days + " шт. бутылок");
@@ -96,7 +97,6 @@ public class Main {
         System.out.println("После повышения зарплаты на 10 %, Денис будет получать в месяц - " + DenisNewSalary + " рублей, его годовой доход увеличится на " + DenisDifferenceYearsSalary + " рублей");
         System.out.println("После повышения зарплаты на 10 %, Маша будет получать в месяц - " + KristinaNewSalary + " рублей, ее годовой доход увеличится на " + KristinaDifferenceYearsSalary + " рублей");
 
-        System.out.println("Задача 9");
 
     }
 }
