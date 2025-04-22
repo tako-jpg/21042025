@@ -62,8 +62,7 @@ public class Main {
         var egg = 4 * 70;
         var totalGrammBreakfast = banana + milk + ice + egg;
         System.out.println("Общее кол-во грамм в 1 порции завтрака спортсмена составляет " + totalGrammBreakfast + " грамм");
-        float kgInGramm;
-        kgInGramm = (float) totalGrammBreakfast / 1000F;
+        float kgInGramm = (float) totalGrammBreakfast / 1000F;
         System.out.println("Завтрак спортсмена составляет " + totalGrammBreakfast + " грамм, что равняется " + kgInGramm + " кг");
 
         System.out.println("Задача 7");
