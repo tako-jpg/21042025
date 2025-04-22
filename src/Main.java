@@ -91,7 +91,6 @@ public class Main {
         int MashaDifferenceYearsSalary = (MashaNewSalary * 12) - (MashaSalary * 12);
         int DenisDifferenceYearsSalary = (DenisNewSalary * 12) - (DenisSalary * 12);
         int KristinaDifferenceYearsSalary = (KristinaNewSalary * 12) - (KristinaSalary * 12);
-
         System.out.println("После повышения зарплаты на 10 %, Маша будет получать в месяц - " + MashaNewSalary + " рублей, ее годовой доход увеличится на " + MashaDifferenceYearsSalary + " рублей");
         System.out.println("После повышения зарплаты на 10 %, Денис будет получать в месяц - " + DenisNewSalary + " рублей, его годовой доход увеличится на " + DenisDifferenceYearsSalary + " рублей");
         System.out.println("После повышения зарплаты на 10 %, Маша будет получать в месяц - " + KristinaNewSalary + " рублей, ее годовой доход увеличится на " + KristinaDifferenceYearsSalary + " рублей");
