@@ -73,8 +73,8 @@ public class Main {
         short loss2Gramm = 500;
         int loss1QuantityDay = tatalLossInGramm / loss1Gramm;
         int loss2QuantityDay = tatalLossInGramm / loss2Gramm;
-        System.out.println("При условии потери " + loss1Gramm + " грамм в день, спортсме потратит на это " +loss1QuantityDay+ " дней");
-        System.out.println("При условии потери " + loss2Gramm + " грамм в день, спортсме потратит на это " +loss2QuantityDay+ " дней");
+        System.out.println("При условии потери " + loss1Gramm + " грамм в день, спортсме потратит на это " + loss1QuantityDay + " дней");
+        System.out.println("При условии потери " + loss2Gramm + " грамм в день, спортсме потратит на это " + loss2QuantityDay + " дней");
         int mediumQuantityDay = (loss1QuantityDay + loss2QuantityDay) / 2;
         System.out.println("Среднее количество дней, чтобы добиться результата - " + mediumQuantityDay);
 
@@ -96,7 +96,7 @@ public class Main {
         System.out.println("После повышения зарплаты на 10 %, Денис будет получать в месяц - " + DenisNewSalary + " рублей, его годовой доход увеличится на " + DenisDifferenceYearsSalary + " рублей");
         System.out.println("После повышения зарплаты на 10 %, Маша будет получать в месяц - " + KristinaNewSalary + " рублей, ее годовой доход увеличится на " + KristinaDifferenceYearsSalary + " рублей");
 
-    System.out.println("Задача 9");
+        System.out.println("Задача 9");
 
     }
 }
